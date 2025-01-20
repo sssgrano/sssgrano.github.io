@@ -1,0 +1,149 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>sgrano</title>
+        <style type="text/css">
+            body {
+                margin: 50px auto;
+                max-width: 650px;
+                line-height: 1.4;
+                font-size: 17px;
+                background: #20241f;
+                color: #cccccc;
+                padding: 0 10px;
+            }
+            h1,
+            h2,
+            h3 {
+                line-height: 0.7;
+            }
+            img {
+                border: 2px dashed;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 75%;
+            }
+            a,
+            a:active,
+            a:visited {
+                color: #6e9972;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            table {
+                width: 100%;
+                max-width: 800px;
+                margin: 0 auto;
+            }
+            th,
+            td {
+                text-align: center;
+                vertical-align: middle;
+                padding: 10px;
+            }
+        </style>
+
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    </head>
+
+    <body>
+        <h5 style="text-align: right">
+            <a href="about.html">about</a> /// <a href="archive">archive</a>
+        </h5>
+
+        <h2 style="text-align: center">
+            <i><a href="index.html">sgrano</a></i>
+        </h2>
+
+        <div>
+            <img src="figtree.webp" vertical-align="middle" />
+        </div>
+
+        <br />
+
+        <div>
+            This page lists DIY & experimental events and live programming in
+            Tuscany & adjacent regions. <br />
+            <small
+                ><i
+                    >write to sssgrano[at]gmail[dot]com with listings or
+                    suggestions /// or on insta @sssgrano</i
+                ></small
+            >
+        </div>
+
+        <br />
+
+        <table border="1" align="center">
+            <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tue</th>
+                <th>Wed</th>
+                <th>Thu</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+            <tr>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td><a href="#jan20">20</a></td>
+                <td><a href="#jan21">21</a></td>
+                <td>22</td>
+                <td><a href="#jan23">23</a></td>
+                <td>24</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td>1</td>
+            </tr>
+        </table>
+
+        <br />
+        <hr />
+        <br />
+
+        <h3 id="jan20">January 20</h3>
+        event 1 /// location /// time /// details<br />
+
+        <h3 id="jan21">January 21</h3>
+        event 2 /// location /// time /// details<br />
+
+        <h3 id="jan23">January 23</h3>
+        event 3 /// location /// time /// details<br />
+    </body>
+</html>
